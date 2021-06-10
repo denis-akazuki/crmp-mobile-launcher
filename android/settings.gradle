@@ -1,0 +1,33 @@
+rootProject.name = 'Unity'
+include ':react-native-gpu-info'
+project(':react-native-gpu-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-gpu-info/android')
+include ':react-native-version-check'
+project(':react-native-version-check').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-version-check/android')
+include ':react-native-android-auto-update'
+project(':react-native-android-auto-update').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-auto-update/android')
+include ':react-native-push-notification'
+project(':react-native-push-notification').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-push-notification/android')
+include ':react-native-mime-intent'
+project(':react-native-mime-intent').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mime-intent/android')
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
+include ':rn-fetch-blob'
+project(':rn-fetch-blob').projectDir = new File(rootProject.projectDir, '../node_modules/rn-fetch-blob/android')
+include ':react-native-android-apk-installer'
+project(':react-native-android-apk-installer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-apk-installer/android')
+include ':react-native-apk-installer-n'
+project(':react-native-apk-installer-n').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-apk-installer-n/android')
+include ':react-native-apk-installer-n'
+project(':react-native-apk-installer-n').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-apk-installer-n/android')
+include ':react-native-apk-install'
+include ':@react-native-async-storage'
+project(':@react-native-async-storage').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-async-storage/async-storage/android')
+project(':react-native-apk-install').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-apk-install/android')
+include ':react-native-toast-native'
+project(':react-native-toast-native').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-toast-native/android')
+include ':react-native-send-intent'
+project(':react-native-send-intent').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-send-intent/android')
+include ':react-native-fs'
+project(':react-native-fs').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fs/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
