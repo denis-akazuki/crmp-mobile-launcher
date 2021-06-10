@@ -153,7 +153,7 @@ export default function Home({navigation}) {
   };
 
   const checkUpdates = () => {
-    fetch('http://slaughter.perses.feralhosting.com/config.json')
+    fetch('http://ваш сайт/config.json')
       .then((response) => response.json())
       .then((response) => {
         const launcher_data = response;

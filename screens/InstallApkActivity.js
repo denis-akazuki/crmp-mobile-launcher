@@ -29,7 +29,7 @@ export default function InstallApkActivity() {
             PermissionsAndroid.PERMISSIONS.READ_EXTERNAL_STORAGE,
           );
           if (granted === PermissionsAndroid.RESULTS.GRANTED) {
-            fetch('http://slaughter.perses.feralhosting.com/config.json')
+            fetch('http://ваш сайт/config.json')
               .then((response) => response.json())
               .then(async (response) => {
                 const launcher_data = response;
